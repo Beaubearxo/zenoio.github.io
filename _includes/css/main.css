@@ -377,6 +377,13 @@ base64, PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8y
 
 /* Package Box */
 
+.main {
+	width: 940px;
+	padding: 0;
+	margin: 0 auto;
+	position: relative;
+}
+
 .box_wrapper {
 	position: relative;
 	height: 405px;
@@ -522,7 +529,7 @@ base64, PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8y
 	padding: 8px 15px 9px;
 	letter-spacing: -1px;
 	text-shadow: 0 1px rgba(255, 255, 255, .6);
-	background: url(../images/button.gif) left top repeat;
+	background: url(img/button.gif) left top repeat;
 	border-radius: 4px;
 	box-shadow: 0 1px 1px rgba(15, 15, 15, .77);
 }
