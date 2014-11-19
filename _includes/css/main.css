@@ -170,6 +170,7 @@ nav ul li a:hover {
 nav ul li:hover, nav ul li.active {
   border-top-width: {{navborder_active}}px;
   padding-top: 0;
+  color:#00cbfa;
 }
 
 
@@ -228,7 +229,7 @@ base64, PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8y
   top:-135px;
   left:50%;
   margin-left:-135px;
-  colour: #00cbfa !important;
+  color: #00cbfa !important;
 }
 
 .sectiondivider img {
