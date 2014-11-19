@@ -156,7 +156,7 @@ nav ul li {
 
 nav ul li a, nav ul li a:visited {
   display:block;
-  color:#fff;
+  color:#fff !important;
   text-decoration:none;
   font-weight:600;
   opacity:.75;
@@ -228,6 +228,7 @@ base64, PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8y
   top:-135px;
   left:50%;
   margin-left:-135px;
+  colour: #00cbfa !important;
 }
 
 .sectiondivider img {
