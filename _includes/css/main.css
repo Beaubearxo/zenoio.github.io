@@ -165,12 +165,13 @@ nav ul li a, nav ul li a:visited {
 }
 
 nav ul li a:hover {
-  opacity:1
+  opacity:1;
+  color:#49a7e9 !important;
 }
 nav ul li:hover, nav ul li.active {
   border-top-width: {{navborder_active}}px;
   padding-top: 0;
-  color:#00cbfa;
+  color:#49a7e9 !important;
 }
 
 
@@ -229,7 +230,7 @@ base64, PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8y
   top:-135px;
   left:50%;
   margin-left:-135px;
-  color: #00cbfa !important;
+  color: #49a7e9 !important;
 }
 
 .sectiondivider img {
