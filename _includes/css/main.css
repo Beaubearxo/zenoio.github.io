@@ -739,6 +739,21 @@ a {
 	margin-right:10px;
 }
 
+ul.list li{
+	display:block;
+	background:url(img/ul_list_marker.png) 0 10px no-repeat;
+	border-top:1px dotted #ddd;
+	padding:5px 0 6px 15px;
+	line-height:16px;
+	font-size:13px;
+}
+ul.list li:first-child{
+	border-top:none;
+}
+ul.list li a{
+	color:#2f2f2f;
+}
+
 /*----- txt,links,lines,titles -----*/
 h1,h2,h3,h4,h5,h6 {
 	line-height:1.3em;
