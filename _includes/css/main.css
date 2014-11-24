@@ -590,12 +590,192 @@ base64, PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8y
 }
 
 a {
-color: #00cbfa !important;
-outline: none !important;
-cursor: pointer !important;
-text-decoration: none !important;
--webkit-transition: color 0.2s ease !important;
--moz-transition: color 0.2s ease !important;
--o-transition: color 0.2s ease !important;
-transition: color 0.2s ease !important;
+	color: #00cbfa !important;
+	outline: none !important;
+	cursor: pointer !important;
+	text-decoration: none !important;
+	-webkit-transition: color 0.2s ease !important;
+	-moz-transition: color 0.2s ease !important;
+	-o-transition: color 0.2s ease !important;
+	transition: color 0.2s ease !important;
+}
+
+
+/* Article Boxes */
+.main2 {
+	width:980px;
+	padding:0;
+	margin:0 auto;
+	position:relative;
+}
+
+.indent {
+	padding:64px 220px 61px 243px;
+}
+.indent1 {
+	padding:20px 45px 20px 30px;
+}
+
+.indent-left {
+	padding-left:33px;
+}
+.indent-left1 {
+	padding-left:20px;
+}
+
+.indent-bottom {
+	padding-bottom:0;
+}
+
+.indent-right {
+	padding-right:27px;
+}
+
+.indent-top0 {
+	padding-top:0 !important;
+}
+.indent-top {
+	padding-top:24px;
+}
+.indent-top1 {
+	padding-top:53px;
+}
+.indent-top2 {
+	padding-top:45px;
+}
+.indent-top3 {
+	padding-top:40px;
+}
+
+.margin-top {
+	margin-top:0;
+}
+
+.margin-bot {
+	margin-bottom:9px;
+}
+.margin-bot1 {
+	margin-bottom:35px;
+}
+
+.margin-left {
+	margin-left:0;
+}
+
+.margin-right {
+	margin-right:0;
+}
+
+.img-indent {
+	float:left;
+	margin:0px 25px 0px 0px;
+}
+.img-indent1 {
+	float:right;
+	margin:0px 0px 0px 20px;
+}
+.img-indent2 {
+	float:left;
+	margin:0px 10px 0px 0px;
+}
+.img-indent3 {
+	float:left;
+	margin:0px 18px 0px 0px;
+}
+
+.box-bg {
+	background: #ffffff; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmMGYwZjAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #ffffff 0%, #f0f0f0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f0f0f0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f0f0f0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#f0f0f0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#f0f0f0 100%); /* IE10+ */
+	background: linear-gradient(top, #ffffff 0%,#f0f0f0 100%); /* W3C */
+	filter:none;
+	box-shadow:0 1px 1px rgba(0,0,0,.25);
+	border-radius:17px;
+	color:#a1a1a1;
+	line-height:20px;
+}
+
+.col-1 {
+	width:500px;
+	float:left;
+}
+.col-2 {
+	width:187px;
+	float:left;
+	margin-right:10px;
+}
+
+/*----- txt,links,lines,titles -----*/
+h1,h2,h3,h4,h5,h6 {
+	line-height:1.3em;
+	color:#201f22;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	letter-spacing:-1px;
+	text-shadow:0 1px 2px rgba(0,0,0,.5);
+	padding-bottom:8px;
+}
+h1 {
+	font-size:34px;
+}
+h2 {
+	font-size:30px;padding-bottom:17px;
+}
+h3 {
+	font-size:24px;padding-bottom:25px;
+} 
+h4 {
+	font-size:20px;
+}
+h5 {
+	font-size:17px;
+}
+h6 {
+	font-size:13px;text-transform:uppercase;padding-bottom:10px;
+}
+
+.extra-wrap {
+	overflow:hidden;
+	display:block;
+}
+.fleft {
+	float:left
+}
+.fright {
+	float:right
+}
+.alignright {
+	text-align:right
+}
+.aligncenter {
+	text-align:center
+}
+.alignmiddle *{
+	vertical-align:middle
+}
+.d-in-block {
+	display:inline-block;
+}
+.d-block {
+	display:block;
+}
+.reg {
+	text-transform:uppercase;
+}
+.rel {
+	position:relative;
+}
+.p{
+	padding-bottom:21px;
+}
+.p0 {
+	padding-bottom:0 !important;
+}
+.p1 {
+	padding-bottom:10px;
 }
