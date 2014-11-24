@@ -753,10 +753,12 @@ h1 {
 	font-size:34px;
 }
 h2 {
-	font-size:30px;padding-bottom:17px;
+	font-size:30px;
+	padding-bottom:17px;
 }
 h3 {
-	font-size:24px;padding-bottom:25px;
+	font-size:24px;
+	padding-bottom:25px;
 } 
 h4 {
 	font-size:20px;
@@ -765,7 +767,9 @@ h5 {
 	font-size:17px;
 }
 h6 {
-	font-size:13px;text-transform:uppercase;padding-bottom:10px;
+	font-size:13px;
+	text-transform:uppercase;
+	padding-bottom:10px;
 }
 
 .wrapper {
@@ -773,8 +777,8 @@ h6 {
 	overflow:hidden;
 }
 
-.wrapper .h2 {
-	text-align: left !important;
+.wrapper h2 {
+	text-align:left
 }
 
 .extra-wrap {
