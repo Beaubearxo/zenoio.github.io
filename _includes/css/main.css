@@ -1,3 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Sansita+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+
 html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; }
 
@@ -606,14 +610,17 @@ a {
 }
 
 .indent {
-	padding:64px 220px 61px 243px;
+	padding:20px 20px 20px 20px;
 }
 .indent1 {
 	padding:20px 45px 20px 30px;
 }
+.indent0 {
+	padding:20px 0 20px 0;
+}
 
 .indent-left {
-	padding-left:33px;
+	padding-left:30px;
 }
 .indent-left1 {
 	padding-left:20px;
@@ -624,7 +631,7 @@ a {
 }
 
 .indent-right {
-	padding-right:27px;
+	padding-right:30px;
 }
 
 .indent-top0 {
@@ -759,6 +766,15 @@ h5 {
 }
 h6 {
 	font-size:13px;text-transform:uppercase;padding-bottom:10px;
+}
+
+.wrapper {
+	width:100%;
+	overflow:hidden;
+}
+
+.wrapper .h2 {
+	text-align: left !important;
 }
 
 .extra-wrap {
