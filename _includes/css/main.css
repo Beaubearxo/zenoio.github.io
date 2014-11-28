@@ -78,8 +78,10 @@ hr {
   padding: 0 4%;
 }
 .container p, .container ol, .container ul {
-  font-size: 17px;
   padding: 0 5%;
+}
+.bold p { 
+  font-size: 17px;
 }
 .container ol, .container ul { padding: 0 8%; }
 .container p:first-of-type {
@@ -402,7 +404,7 @@ base64, PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8y
 }
 
 .box {
-	width: 220px;
+	width: 225px;
 	position: absolute;
 	top: -58px;
 	z-index: 99;
@@ -835,4 +837,8 @@ h6 {
 }
 .p1 {
 	padding-bottom:10px;
+}
+
+.center {
+    text-align:center;
 }
